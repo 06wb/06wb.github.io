@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Rime 简明教程</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ </head>
+ <body>
+ <h4>重要常识</h4>
+<ul>
+   <li><a target=_blank href="https://github.com/rime/home/wiki/SharedData">共享文件夾</a>
+      <ul>
+         <li>小狼毫：<code>&lt;安裝目錄&gt;\data</code></li>
+         <li>鼠鬚管：<code>/Library/Input Methods/Squirrel.app/Contents/SharedSupport</code></li>
+         <li>中州韻：<code>/usr/share/rime-data</code></li>
+      </ul>
+   </li>
+   <li><a target=_blank href="https://github.com/rime/home/wiki/UserData">用戶文件夾</a>
+      <ul>
+         <li>小狼毫：<code>%APPDATA%\Rime</code></li>
+         <li>鼠鬚管：<code>~/Library/Rime</code></li>
+         <li>中州韻：
+            <ul>
+               <li>ibus-rime: <code>~/.confg/ibus/rime</code></li>
+               <li>fcitx-rime: <code>~/.confg/fcitx/rime</code></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul>
+Rime是跨平台的输入法引擎，也是后端算法框架；前端在Linux系统中叫“中州韵”、在macOS系统中叫“鼠须管”、在Windows系统中叫“小狼毫”、在Android系统中叫“同文”、在iOS系统中叫“iRime”，故以下统称“Rime输入法”。<br />
+中州韵（Linux）、鼠须管（macOS）、小狼毫（Windows）、同文（Android）、iRime（iOS）等“Rime输入法”的码表通用，故以下统称“Rime码表”。<br />
+用户下载“Rime码表”后，一般应放入“用户文件夹”，有特殊要求才会放入“共享文件夹”。<br />
+<h4>码表启用步骤（以小狼毫为例）：</h4>
+开始菜单打开“【小狼毫】用戶文件夾”，可以快速定位“用户文件夹”，将下载解压后准备要用的“Rime码表”放入此文件夹。<br />
+开始菜单打开“【小狼毫】輸入法設定”，选择要启用的码表。<br />
+<img src="../imgs/rime01.png" /><br />
+开始菜单打开“【小狼毫】重新部署”，等待完成后，在任意界面切换到“Rime输入法”，按F4或Ctrl+`切换码表，即可开始如其他输入法一样输入文字了。<br />
+<img src="../imgs/rime02.png" /><br />
+<h4>进阶教程</h4>
+如果你想自己定制“Rime码表”，建议详细阅读、研究：<br />
+1、<a target=_blank href="https://github.com/rime/home/wiki">官方wiki</a><br />
+2、相关的issue：<br />
+<a target=_blank href="https://github.com/rime/home/issues">https://github.com/rime/home/issues</a><br />
+<a target=_blank href="https://github.com/rime/librime/issues">https://github.com/rime/librime/issues</a><br />
+<a target=_blank href="https://github.com/rime/ibus-rime/issues">https://github.com/rime/ibus-rime/issues</a><br />
+<a target=_blank href="https://github.com/rime/squirrel/issues">https://github.com/rime/squirrel/issues</a><br />
+<a target=_blank href="https://github.com/rime/weasel/issues">https://github.com/rime/weasel/issues</a><br />
+<a target=_blank href="https://github.com/osfans/trime/issues">https://github.com/osfans/trime/issues</a><br />
+<a target=_blank href="https://github.com/jimmy54/iRime/issues">https://github.com/jimmy54/iRime/issues</a><br />
+<a target=_blank href="https://github.com/hchunhui/librime-lua/issues">https://github.com/hchunhui/librime-lua/issues</a><br />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ </body>
+</html>
